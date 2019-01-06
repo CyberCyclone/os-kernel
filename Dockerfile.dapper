@@ -34,6 +34,7 @@ ENV OS_REPO=${OS_REPO} \
     DOCKER_URL=DOCKER_URL_${ARCH} \
     DOCKER_URL_amd64=https://get.docker.com/builds/Linux/x86_64/docker-1.10.3 \
     DOCKER_URL_arm64=https://github.com/rancher/docker/releases/download/v1.10.3-ros1/docker-1.10.3_arm64 \
+    DOCKER_URL_arm=https://github.com/rancher/docker/releases/download/v1.11.2-ros1/docker-1.11.2_arm.tgz \
     KERNEL_TAG=${KERNEL_TAG} \
     KERNEL_VERSION=${KERNEL_VERSION} \
     KERNEL_URL=https://cdn.kernel.org/pub/linux/kernel/v4.x/ \
