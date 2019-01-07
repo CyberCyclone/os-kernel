@@ -40,7 +40,7 @@ ENV OS_REPO=${OS_REPO} \
     KERNEL_URL=https://cdn.kernel.org/pub/linux/kernel/v4.x/ \
     KERNEL_TAR=linux-${KERNEL_TAG}.tar.xz \
     KERNEL_SIGN=linux-${KERNEL_TAG}.tar.sign \
-    KERNEL_ARCH=x86
+    KERNEL_ARCH=arm
 # for rc testing
 #ENV KERNEL_URL=https://cdn.kernel.org/pub/linux/kernel/v4.x/testing/linux-${KERNEL_TAG}.tar.xz
 
